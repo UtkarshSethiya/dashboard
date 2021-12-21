@@ -1,0 +1,113 @@
+.cont{
+  border: solid 1px black;
+}
+.components{
+color: blue;
+
+}
+.but{
+display: flex;
+  justify-content: space-between;
+}
+
+.right{
+  color: white;
+  background-color: blue;
+  border-radius: 8px;
+}
+.left{
+  color: white;
+  background-color: rgb(57, 57, 57);
+  border-radius: 8px;
+}
+
+.main{
+  margin-top: 7px;
+}
+.bb{
+  border: 3px solid rgb(211, 211, 211);
+  border-radius: 10px;
+}
+h4{
+  margin-top: 8px;
+}
+#dates{
+  display: flex;
+ justify-content: space-between;
+}
+#inp{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+input{
+  background-color: rgb(241, 241, 241);
+ margin: 3px;
+ border-radius: 5px;
+ outline: none;
+ justify-content: space-around;
+ 
+}
+h1{
+  text-align: center;
+}
+
+/*      <div className="row ">
+      <div className="col-md-3 "></div>
+     
+
+
+        <div className="col-md-7 ">
+        <Form>
+  <Form.Group className="mb-3" controlId="formGroupEmail">
+    <Form.Label id="eventname" >Event Name</Form.Label>
+    <Form.Control type="email" placeholder="Choose your event name" />
+  </Form.Group>
+  
+</Form>
+</div>
+
+<div className="col-md-3"></div>
+
+      
+      <div className="row">
+        <div className="col-md-3"></div>
+
+ <div className="col-md-7">
+    <label>Start Date</label>
+     <input type="date" onChange={changedate}></input>
+
+
+
+<label >Start Time</label>
+  <input type="time" id="appt" name="appt"></input>
+
+
+
+ 
+<label>End date</label> 
+     <input type="date"  value={finaldate} ></input> 
+     
+    
+     
+     <label >End Time</label>
+  <input type="time" id="appt" name="appt"></input>
+  </div>
+   
+</div>
+
+<br></br>
+<div className="row">
+        <div className="col-md-3"></div>
+        <div className="col-md-7">
+          <br></br>
+        <Form>
+  <Form.Group className="mb-3" controlId="formGroupEmail">
+    <Form.Label id="eventname" >Slug (www.bizconnectevents.com/slug)</Form.Label>
+    <Form.Control type="email" placeholder="Choose your event name as slug Min 6 characters" />
+  </Form.Group>
+  
+</Form>
+</div>
+</div>
+</div>*/

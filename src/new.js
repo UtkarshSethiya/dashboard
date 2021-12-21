@@ -7,25 +7,26 @@ import {Form} from 'react-bootstrap';
 
 function New() {
   const [date,setdate]=useState('	Tuesday, 21-Dec-21 12:01:43 UTC ');
+  const [time,settime]=useState();
  
   function changedate(event){
     setdate(event.target.value);
   }
-  console.log(date);
+  
+  function changetime(event){
+    settime(event.target.value);
+  }
+  
+  if (!isValid(date)) {
+    throw new RangeError('Invalid time value');
+  }
   let date2=new Date(date);
-console.log(date2)
+
   let date3=new Date(date2);
-console.log(date2.getDate());
   date3.setDate(date2.getDate()+7);
 
-  console.log(date3);
- 
-  
-
-  
-  let finaldate=date3.toISOString().split('T')[0];
-  console.log(finaldate);
-
+let finaldate=date3.toISOString().split('T')[0];
+console.log(finaldate);
   return (
     <div className="App">
      
@@ -71,18 +72,18 @@ console.log(date2.getDate());
   <div id="dates"> <div>Start Date </div>  <div>Start Time </div>    <div>End Date</div>     <div>End Time  </div></div>
   
     <div id="inp">
-    <input type="date" onChange={changedate}></input>
+    <input type="date" value={date} onChange={changedate}></input>
   
 
 
-  <input type="time" id="appt" name="appt"></input>
+  <input type="time" id="appt" name="appt" onChange={changetime} ></input>
 
 
 
-     <input type="date"  value={finaldate} ></input> 
+     <input id="inp" type="date"  value={finaldate} ></input> 
      
  
-  <input type="time" id="appt" name="appt"></input></div> 
+  <input type="time" id="appt" name="appt" value={time} ></input></div> 
 
   
 <br></br> <br></br>

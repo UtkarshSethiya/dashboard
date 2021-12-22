@@ -19,7 +19,7 @@ return(
 <br></br> <br></br> <br></br>
 <h1>Page1</h1> 
 
-<div className="row "> 
+<div className="row container "> 
           <div className="col-md-2">  <img className="mb-3 " src={ico} height={"100px"} width={"160px"}  ></img>  </div>
           <div className="col-md-4"><h5>Dashboard <i class="bi bi-chevron-right"></i> Booth <i class="bi bi-chevron-right"></i> All</h5></div>
          <div className="col-md-1"></div>

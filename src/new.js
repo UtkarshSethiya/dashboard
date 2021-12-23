@@ -33,8 +33,8 @@ console.log(finaldate);
  <div className="row "> 
           <div className="col-md-2">  <img className="mb-3 " src={ico} height={"100px"} width={"160px"}  ></img>  </div>
           <div className="col-md-4"><h5>Dashboard <i class="bi bi-chevron-right"></i> Booth <i class="bi bi-chevron-right"></i> New</h5></div>
-         <div className="col-md-1"></div>
-         <div className="col-md-4 logout"> Is77@biz.com <i class="bi bi-box-arrow-in-left"></i></div>
+         <div className="col-md-3"></div>
+         <div className="col-md-3 logout"> Is77@biz.com <i class="bi bi-box-arrow-in-left"></i></div>
          </div>
         
       <div className=" main row ">
@@ -43,8 +43,8 @@ console.log(finaldate);
         <span className="components "><i class="bi i bi-image"></i>  GALLERY</span><br></br> <br></br>
         <span className="components "><i class="bi i bi-app"></i> TEMPLATES</span>
         </div>
-        <div className="col-md-7">
-          <div className="row main ">
+        <div className="col-md-9 ">
+          <div className="row main  ">
     
  
 
@@ -62,8 +62,8 @@ console.log(finaldate);
       <div className="col-md-2">
  
  </div>
- <div className="col-md-12">
-    <div className="row bb">
+ <div className="col-md-12 ">
+    <div className="row bb p-4">
     <pre></pre>  <pre></pre>
       <h4> General</h4> <br></br> <br></br>
     <Form>
